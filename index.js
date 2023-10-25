@@ -14,6 +14,10 @@ app.get("/clientes", (req,res) => {
     res.send("Clientes!!!")
 })
 
+app.get("/faq", (req,res) => {
+    res.send("Perguntas Frequentes!!!")
+})
+
 app.listen(3000, (err) => {
     if(!err) return console.log("Servidor Iniciado!!")
     console.log(err)
